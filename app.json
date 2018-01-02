@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "小程序初体验",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor":"#272727",
+    "color":"#fff",
+    "selectedColor":"#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Home",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_select.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "About",
+        "iconPath": "images/about.png",
+        "selectedIconPath": "images/about_select.png"
+      }
+    ]
+  },
+  "networkTimeout":100000
+}

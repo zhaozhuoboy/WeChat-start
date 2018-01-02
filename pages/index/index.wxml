@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="index-container">
+  <map class='map' latitude="{{location.latitude}}" longitude="{{location.longitude}}"></map>
+</view>
