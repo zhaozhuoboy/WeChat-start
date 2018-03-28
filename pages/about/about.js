@@ -11,6 +11,12 @@ Page({
   tapImg:() => {
     console.log('tap img')
   },
+  scrollTouchstart: function (e) {
+    console.log('touchstart--->',e)
+  },
+  scrollTouchmove: function (e) {
+    console.log('touchMove--->',e)
+  },
   onLoad: function (e) {
     this.setData({
       userInfo: app.globalData.userInfo,
